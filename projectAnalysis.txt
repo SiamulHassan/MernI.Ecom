@@ -1,0 +1,74 @@
+=========================> Analysis: Ecommerce
+
+====================== bannar(h1) ==========================
+porsha reg 60 ==> bannar heading
+oafientola regular 24 ==> bannar paragraph
+tertiary_font_regular_60: 
+tertiary_font_regular_24: 
+
+======================= h2 ===============
+source semibold 40 ===>h2: WISHLIST & WISHLIST nothing heading,item description heading,item description and review,login heading,
+
+====================== h3 ====================
+
+source semi 30 ==> left nav item heading(h3),avatar text userName(h3),Title headings(h3),card heading (h3), card badge(h3)
+source semi 30(32) ==>  card badge
+source semi 60 ==> h4(footer subscribe) 
+
+============ h4 =============
+source semi 24 ==> nav items(a), card itemName(h4),price(h4),category(h4),[footer placeholder,card btn,bannar btn text(all btns) --> h4],WISHLIST nothing heading bottom (h4), [available right now(h4), add to card er nicher 2ta o->itemDescription page],[item cart product heading,]
+tree texts----> h4 (checkout register)
+
+=============== a ================
+source semi 24 ==> left nav item active(a) 
+source semi 24 ==> nav items(a)
+source regular 24 ==>  left nav item inactive(a)
+
+============== span li ==================
+source regular 24 ==> span:[item description: wishlist and share], li:(itemDescription descriptions)
+
+
+============== p ==================
+============================> item description
+source semi 20(will be 16) ==> ratings 
+===========================> checkout register
+login checkbox ---> inter med 20 (will be source semi 16) 
+cart porduct item text---> sorce semibold 16
+ 
+regular 16---semibold 16(small text gula)  ---semibold 20(small text bold hole)
+
+source regular 16 ==> search placeholder,[size,size number,item description paragraph(itemDescription page)][item cart small texts] 
+
+source semi 16 ===> item cart->total,we suport-->(p) 
+
+source regular 20 ==> category right text(p) 
+source regular 30 ==> avatar text hello  and beside two [icon er pashe text "span" er moddhe thakbe], footer p, footer input top text(h3)
+source regular 30 ==> span, p, h3
+
+
+SO,
+p_regualr_16: 
+p_semi_16: 
+p_regualr_20:
+p_regualr_30: 
+p/span_semibold_20:
+label_semibold_20:
+
+======== try with p_regualr_16 and p_semi_16 
+inter med 14 leading20 tracking[0.5%] ==> breadCrumb normal
+inter semi 14 leading20 tracking[0.5%] ==> breadCrumb current
+
+
+
+/*
+h1-h6 ===> sob h1/h2... joto jaygay use hobe akrokom thakbe, just only few diff ke modifier hisabe nibo.
+same for p,a,span... 
+/*
+
+
+
+
+
+
+
+

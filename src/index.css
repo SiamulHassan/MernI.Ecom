@@ -1,0 +1,49 @@
+/* google font import here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Redressed&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+/* tailwind config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css variables */
+:root {
+  /* background colors */
+  --slider_arrow: #e2202a;
+  --slider_btn_bg: #fefefe;
+  --bookmark_bg: #cdcdcd;
+
+  --body_color: #fefefe;
+  /* text colors */
+  --white: #fff;
+  --black: #000;
+  --red: #f10909;
+  --red_drak: #bf4545;
+
+  /* border colors */
+  --title_border: #e76a66;
+  --btn_border: #bf4545;
+  --btn_border_secondary: #cdcdcd;
+  --brand_border: #ed8f8c;
+  --bannar_border: #fceceb;
+  --border_grey: #e7e7e7;
+  --border_dark: #000;
+  /* 400 regular, 500 medium, 600 semibold */
+  --primary_font: "Source Sans 3", sans-serif;
+  --secondary_font: "Poppins", sans-serif;
+  --tertiary_font: "Redressed", sans-serif;
+}
+
+/* 
+we want 10 px is equal to 1 rem; but brower default is 16px = 1rem;
+so, 10/16 = 0.625*100 = 62.5%
+
+rem * 10 = px (2.4 * 10 ==24px)
+let's say we have a font size of 24px; just devide by 10px to get the rem value which is 2.4
+
+*/
+
+html {
+  /* 1 rem is === 10px */
+  /*  converting to %  for auto adoupt instead of fiexed value (10px) */
+  font-size: 62.5%;
+}
